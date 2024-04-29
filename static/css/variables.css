@@ -12,7 +12,7 @@
   --dark: #0e191e;
   --dark-alt: #383b3d;
   --light: #ffffff;
-  --light-alt: #f2fcfd;
+  --light-alt: #e7f0fd;
 }
 
 /* Default */
@@ -92,7 +92,7 @@ p a:hover {
   color: var(--primary);
 }
 p b {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Background */
@@ -138,7 +138,13 @@ p b {
 /* Section */
 .section {
   padding: 100px 0;
-  min-height: 300px;
+  position: relative;
+}
+
+/* Container */
+.container-fluid {
+  max-width: 1600px;
+  width: 100%;
 }
 
 /* Button */
@@ -184,12 +190,15 @@ p b {
   font-size: 40px;
   font-weight: 700;
   color: var(--dark);
+  text-transform: capitalize;
+  line-height: 140%;
 }
 .sub-heading {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 600;
   color: var(--dark);
   text-transform: capitalize;
+  line-height: 140%;
 }
 
 /* List */

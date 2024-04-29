@@ -181,7 +181,7 @@
   width: 130px;
   height: 130px;
   border-radius: 100%;
-  background: var(--primary);
+  background: var(--secondary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,19 +220,216 @@
 .products .product-card .card-body {
   position: relative;
   z-index: 1;
-  padding: 30px;
+  padding: 20px 30px 30px 40px;
 }
 .products .product-card:hover {
   transform: translateY(-10px);
 }
 .products .product-card:hover::after {
-  background: var(--secondary);
+  background: var(--primary);
 }
 .products .product-card:hover h5 {
   color: var(--light);
 }
 .products .product-card:hover p {
   color: var(--light-alt);
+}
+
+/* Risk */
+.risk {
+  position: relative;
+}
+.risk .pattern {
+  position: absolute;
+  bottom: 50px;
+  left: -75px;
+  width: 200px;
+}
+.risk .pattern-alt {
+  position: absolute;
+  top: 150px;
+  right: 70px;
+  width: 150px;
+  transform: rotate(45deg);
+}
+.risk .container {
+  position: relative;
+  z-index: 1;
+}
+.risk .image {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+.risk .sub-heading span {
+  background: linear-gradient(
+    to top right,
+    var(--dark),
+    var(--primary),
+    var(--secondary)
+  );
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: var(--light);
+  font-size: 16px;
+  text-shadow: 2px 2px #0002;
+}
+.risk .nav-pills {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: sticky;
+  top: 120px;
+}
+.risk .nav-link {
+  padding: 10px 20px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--primary);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark);
+  background: var(--light);
+  transition: 0.5s ease all;
+}
+.risk .nav-link.active {
+  background: var(--primary);
+}
+.risk .card {
+  border: 0;
+}
+.risk .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.risk .card .card-body {
+  padding: 0;
+}
+.risk .card .text {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 80%;
+  background: var(--light);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 0 #0002;
+}
+.risk .card .text h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+/* Points */
+.points .image {
+  width: 250px;
+}
+.points .items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.points .items .item {
+  padding: 30px;
+  background: var(--light);
+  border-radius: 10px;
+  box-shadow: 0 0 30px 0 #0001;
+}
+.points .items .item h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.points .box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.points .box .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #b9ebf7;
+  box-shadow: 2px 5px 10px #0002;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.points .box .icon img {
+  width: 50px;
+}
+.points .box .text {
+  width: calc(100% - 115px);
+}
+.points .box .text h6 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px 0 10px 0;
+  color: var(--primary);
+}
+
+/* Counter */
+.counter .card {
+  position: relative;
+  border: 0;
+  background: transparent;
+  height: 100%;
+}
+.counter .card .image {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 40%;
+}
+.counter .card .card-body {
+  width: 75%;
+  margin: 50px 0 0 auto;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to top right, var(--primary), var(--secondary));
+  padding: 30px;
+  border-radius: 10px;
+}
+.counter .card .items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+.counter .card .items .item {
+  background: #301993;
+  padding: 20px;
+  border-radius: 5px;
+}
+.counter .card .items .item i {
+  font-size: 30px;
+  color: var(--light);
+}
+.counter .card .items .item h5 {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--light);
+  margin: 15px 0;
+}
+.counter .card .items .item h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--light);
+  opacity: 0.7;
+}
+.counter .card p {
+  color: var(--light);
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* Responsive */
