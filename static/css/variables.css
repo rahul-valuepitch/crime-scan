@@ -23,11 +23,11 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scrollbar-color: var(--secondary) transparent;
+  scrollbar-color: var(--primary) transparent;
   scrollbar-width: thin;
 }
 *::selection {
-  background: var(--secondary);
+  background: var(--primary);
   color: var(--light);
 }
 ::-webkit-scrollbar {
@@ -35,7 +35,7 @@
   background: var(--dark);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--secondary);
+  background: var(--primary);
 }
 
 html {
@@ -78,7 +78,7 @@ video {
   width: 100%;
 }
 p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--dark-alt);
   line-height: 160%;
@@ -180,5 +180,16 @@ p b {
 }
 
 /* Heading */
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--dark);
+}
+.sub-heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--dark);
+  text-transform: capitalize;
+}
 
 /* List */
