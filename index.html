@@ -28,7 +28,7 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" data-aos="fade-down">
       <div class="container">
         <a class="navbar-brand" href="./index.html">
           <img src="./static/images/logo/main.png" alt="CrimeScan" />
@@ -95,20 +95,20 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="text">
-              <h6 class="mb-3">
+              <h6 class="mb-3" data-aos="fade-up">
                 <span class="badge">CrimeScan</span>
                 Conducting Instant Criminal record check
               </h6>
-              <h2 class="mb-4">
+              <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">
                 <span>Mitigate Risk</span> to safeguard your organization
               </h2>
-              <p class="mb-5">
+              <p class="mb-5" data-aos="fade-up" data-aos-delay="600">
                 Did you know that 33% of criminals are repeat offenders and have
                 prior cases against them?
               </p>
-              <div class="button-group">
+              <div class="button-group" data-aos="fade-up" data-aos-delay="900">
                 <a href="#" class="button">Request A Demo</a>
-                <a href="#" class="button-alt">
+                <a href="#video" class="button-alt">
                   Watch Video <i class="fas fa-play-circle ms-2"></i>
                 </a>
               </div>
@@ -117,42 +117,55 @@
         </div>
       </div>
       <div class="video">
-        <video src="./static/images/hero/01.mp4" autoplay loop muted></video>
+        <video
+          src="./static/images/hero/01.mp4"
+          autoplay
+          loop
+          muted
+          data-aos="zoom-in"
+          data-aos-delay="300"
+        ></video>
       </div>
     </section>
 
     <!-- Clients -->
     <section class="section clients pt-5">
       <div class="container">
-        <h5 class="sub-heading text-center mb-5">Our Trusted Clients</h5>
+        <h5
+          class="sub-heading text-center mb-5"
+          data-aos="fade-up"
+          data-aos-delay="0"
+        >
+          Our Trusted Clients
+        </h5>
         <div class="client-grid">
-          <div class="item">
+          <div class="item" data-aos="fade-up" data-aos-delay="0">
             <img src="./static/images/clients/01.jpg" alt="" />
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-up" data-aos-delay="200">
             <img src="./static/images/clients/02.jpg" alt="" />
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-up" data-aos-delay="400">
             <img src="./static/images/clients/03.jpg" alt="" />
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-up" data-aos-delay="600">
             <img src="./static/images/clients/04.jpg" alt="" />
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-up" data-aos-delay="800">
             <img src="./static/images/clients/05.jpg" alt="" />
           </div>
         </div>
         <div class="client-grid mt-4">
-          <div class="item">
+          <div class="item" data-aos="fade-up" data-aos-delay="800">
             <img src="./static/images/clients/06.jpg" alt="" />
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-up" data-aos-delay="1000">
             <img src="./static/images/clients/07.jpg" alt="" />
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-up" data-aos-delay="1200">
             <img src="./static/images/clients/08.jpg" alt="" />
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-up" data-aos-delay="1400">
             <img src="./static/images/clients/09.jpg" alt="" />
           </div>
         </div>
@@ -162,60 +175,76 @@
     <!-- Product -->
     <section class="section products bg-light-alt">
       <div class="container">
-        <h3 class="heading text-center text-primary mb-3">Our Products</h3>
-        <h5 class="sub-heading text-center mb-5">
+        <h3
+          class="heading text-center text-primary mb-3"
+          data-aos="fade-up"
+          data-aos-delay="0"
+        >
+          Our Products
+        </h3>
+        <h5
+          class="sub-heading text-center mb-5"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           We deliver solutions so seamlessly, <br />
           you'll feel we're an extension of your team.
         </h5>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card product-card">
-              <div class="icon">
-                <img src="./static/images/products/product.png" alt="" />
-              </div>
-              <div class="card-body">
-                <h5>
-                  Personalized report <br />
-                  recommendations
-                </h5>
-                <p>
-                  Answer few questions and let us provide you which report be
-                  best for you!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card product-card">
-              <div class="icon">
-                <img src="./static/images/products/api.png" alt="" />
-              </div>
-              <div class="card-body">
-                <h5>
-                  Automation through <br />
-                  API Integration
-                </h5>
-                <p>
-                  Get reports directly in your system, with our hassle free api
-                  integration
-                </p>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div data-aos="fade-up" data-aos-delay="300">
+              <div class="card product-card">
+                <div class="icon">
+                  <img src="./static/images/products/product.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5>
+                    Personalized report <br />
+                    recommendations
+                  </h5>
+                  <p>
+                    Answer few questions and let us provide you which report be
+                    best for you!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card product-card">
-              <div class="icon">
-                <img src="./static/images/products/ui.png" alt="" />
+          <div class="col-lg-4 col-md-6">
+            <div data-aos="fade-up" data-aos-delay="600">
+              <div class="card product-card">
+                <div class="icon">
+                  <img src="./static/images/products/api.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5>
+                    Automation through <br />
+                    API Integration
+                  </h5>
+                  <p>
+                    Get reports directly in your system, with our hassle free
+                    api integration
+                  </p>
+                </div>
               </div>
-              <div class="card-body">
-                <h5>
-                  Comprehensive <br />
-                  UI
-                </h5>
-                <p>
-                  Easy to use simple yet comprehensive portal to empower you to
-                  check criminal records
-                </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div data-aos="fade-up" data-aos-delay="900">
+              <div class="card product-card">
+                <div class="icon">
+                  <img src="./static/images/products/ui.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5>
+                    Comprehensive <br />
+                    UI
+                  </h5>
+                  <p>
+                    Easy to use simple yet comprehensive portal to empower you
+                    to check criminal records
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -224,20 +253,24 @@
     </section>
 
     <!-- About -->
-    <section class="section about pb-0">
+    <section class="section about pb-0" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
-            <div class="image">
+            <div class="image" data-aos="zoom-in" data-aos-delay="300">
               <img src="./static/images/about.jpg" alt="" />
             </div>
           </div>
           <div class="col-lg-7 ms-auto">
             <div class="text">
-              <h4 class="heading text-primary mb-3">
+              <h4
+                class="heading text-primary mb-3"
+                data-aos="fade-up"
+                data-aos-delay="0"
+              >
                 Why you should trust us?
               </h4>
-              <p class="mb-2">
+              <p class="mb-2" data-aos="fade-up" data-aos-delay="300">
                 Valuepitch is a group of companies specializing in vital
                 services for businesses and organizations across industries. As
                 a market leader in court record checks, we empower over 50,000
@@ -248,32 +281,36 @@
                 on-demand QA testing and monthly retainers, we cater to diverse
                 client needs.
               </p>
-              <p>
+              <p data-aos="fade-up" data-aos-delay="300">
                 From unicorns like Globalbees and Classplus to international
                 players like Elevate and Cipherbizz, we have established strong
                 partnerships. At Valuepitch, we are committed to delivering
                 reliable solutions that drive success, emphasizing excellence,
                 efficiency, and a competitive edge.
               </p>
-              <h6 class="sub-heading mt-5 mb-3">
+              <h6
+                class="sub-heading mt-5 mb-3"
+                data-aos="fade-up"
+                data-aos-delay="600"
+              >
                 Our numbers also speaks our experience
               </h6>
-              <div class="row">
+              <div class="row g-3">
                 <div class="col-sm-4">
-                  <div class="item">
-                    <h5><span>30</span>Cr+</h5>
+                  <div class="item" data-aos="fade-up" data-aos-delay="500">
+                    <h5><span class="count" data-count="30">0</span>Cr+</h5>
                     <h6>Crime Records</h6>
                   </div>
                 </div>
                 <div class="col-sm-4">
-                  <div class="item">
-                    <h5><span>01</span>Cr+</h5>
+                  <div class="item" data-aos="fade-up" data-aos-delay="700">
+                    <h5><span class="count" data-count="1">0</span>Cr+</h5>
                     <h6>Checks Performed</h6>
                   </div>
                 </div>
                 <div class="col-sm-4">
-                  <div class="item">
-                    <h5><span>03</span>Lakhs</h5>
+                  <div class="item" data-aos="fade-up" data-aos-delay="900">
+                    <h5><span class="count" data-count="3">0</span>Lakhs</h5>
                     <h6>Cases Found</h6>
                   </div>
                 </div>
@@ -284,12 +321,34 @@
       </div>
     </section>
 
+    <!-- Video -->
+    <section class="section pb-0" id="video">
+      <div class="container">
+        <div class="video-content">
+          <div class="image">
+            <button>
+              <i class="fas fa-play-circle"></i>
+              <span>Click here to play the video</span>
+            </button>
+            <img src="./static/images/video.jpg" alt="" />
+          </div>
+          <video src="./static/images/video.mp4" controls></video>
+        </div>
+      </div>
+    </section>
+
     <!-- Risk -->
     <section class="section risk">
       <img src="./static/images/blob.svg" alt="" class="pattern" />
       <div class="container">
-        <h5 class="heading text-primary mb-3">Tailored to your needs</h5>
-        <h6 class="sub-heading mb-5">
+        <h5
+          class="heading text-primary mb-3"
+          data-aos="fade-up"
+          data-aos-delay="0"
+        >
+          Tailored to your needs
+        </h5>
+        <h6 class="sub-heading mb-5" data-aos="fade-up" data-aos-delay="300">
           We serve different industries to reduce their risks and have solutions
           as per the industry
         </h6>
@@ -300,6 +359,8 @@
               id="v-pills-tab"
               role="tablist"
               aria-orientation="vertical"
+              data-aos="fade-up"
+              data-aos-delay="300"
             >
               <button
                 class="nav-link active"
@@ -352,7 +413,12 @@
             </div>
           </div>
           <div class="col-lg-8">
-            <div class="tab-content" id="v-pills-tabContent">
+            <div
+              class="tab-content"
+              id="v-pills-tabContent"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               <div
                 class="tab-pane fade show active"
                 id="v-pills-risk-point-01"
@@ -449,7 +515,11 @@
     <!-- Points -->
     <section class="section points p-0">
       <div class="container-fluid px-lg-5">
-        <div class="card bg-secondary border-0">
+        <div
+          class="card bg-secondary border-0"
+          data-aos="zoom-in"
+          data-aos-delay="300"
+        >
           <div class="card-body p-5">
             <div class="row align-items-center g-5">
               <div class="col-lg-7">
@@ -504,23 +574,35 @@
       <div class="container">
         <div class="row align-items-center g-5">
           <div class="col-lg-6">
-            <div class="image">
+            <div class="image" data-aos="zoom-in" data-aos-delay="300">
               <img src="./static/images/risk.jpg" alt="" />
             </div>
           </div>
           <div class="col-lg-6">
             <div class="text">
-              <h4 class="heading text-primary mb-4">Comprehensive Report</h4>
-              <h5 class="sub-heading mb-4">
+              <h4
+                class="heading text-primary mb-4"
+                data-aos="fade-up"
+                data-aos-delay="0"
+              >
+                Comprehensive Report
+              </h4>
+              <h5
+                class="sub-heading mb-4"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <span>Colour-coded</span> Reports for thorough checks help you
                 focus on few important items
               </h5>
               <!-- prettier-ignore -->
-              <p class="mb-5">
+              <p class="mb-5" data-aos="fade-up" data-aos-delay="500">
                 <b class="text-secondary">Get detailed analysis of legal history</b>, AML/PEP Status and the severity of cases through our simple
                 yet comprehensive color coded reports and risk scores
               </p>
-              <a href="#" class="button">Get Sample Report</a>
+              <div data-aos="fade-up" data-aos-delay="700">
+                <a href="#" class="button">Get Sample Report</a>
+              </div>
             </div>
           </div>
         </div>
@@ -532,15 +614,23 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h4 class="heading text-primary mb-3">
+            <h4
+              class="heading text-primary mb-3"
+              data-aos="fade-up"
+              data-aos-delay="0"
+            >
               Instant & Comprehensive Court Record Checks
             </h4>
-            <h5 class="sub-heading mb-5">
+            <h5
+              class="sub-heading mb-5"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               Based on biggest database of court records in India
             </h5>
             <div class="row g-5">
               <div class="col-lg-6">
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-delay="200">
                   <div class="icon">
                     <img src="./static/images/points/01.png" alt="" />
                   </div>
@@ -555,7 +645,7 @@
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-delay="600">
                   <div class="icon">
                     <img src="./static/images/points/02.png" alt="" />
                   </div>
@@ -569,7 +659,7 @@
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-delay="400">
                   <div class="icon">
                     <img src="./static/images/points/03.png" alt="" />
                   </div>
@@ -584,7 +674,7 @@
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-delay="800">
                   <div class="icon">
                     <img src="./static/images/points/04.png" alt="" />
                   </div>
@@ -605,7 +695,7 @@
     </section>
 
     <!-- Counter -->
-    <section class="section counter">
+    <section class="section counter" id="counter">
       <div class="container">
         <div class="row align-items-center g-5">
           <div class="col-lg-7">
@@ -613,16 +703,16 @@
               <div class="image">
                 <img src="./static/images/pattern.png" alt="" />
               </div>
-              <div class="card-body">
+              <div class="card-body" data-aos="zoom-in" data-aos-delay="300">
                 <div class="items">
                   <div class="item">
                     <i class="fal fa-building"></i>
-                    <h5>85%</h5>
+                    <h5><span class="count" data-count="85">0</span>%</h5>
                     <h6>Companies</h6>
                   </div>
                   <div class="item">
                     <i class="fal fa-user"></i>
-                    <h5>19%</h5>
+                    <h5><span class="count" data-count="19">0</span>%</h5>
                     <h6>Individuals</h6>
                   </div>
                 </div>
@@ -635,15 +725,21 @@
           </div>
           <div class="col-lg-5">
             <div class="text">
-              <h5 class="sub-heading mb-4">
+              <h5
+                class="sub-heading mb-4"
+                data-aos="fade-up"
+                data-aos-delay="0"
+              >
                 One’s legal history, influences their likelihood to default on
                 your organization
               </h5>
-              <p class="mb-5">
+              <p class="mb-5" data-aos="fade-up" data-aos-delay="300">
                 CrimeScan conducted a study and compiled a report which
                 highlights this strong positive correlation.
               </p>
-              <a href="#" class="button">Download Report</a>
+              <div data-aos="fade-up" data-aos-delay="500">
+                <a href="#" class="button">Download Report</a>
+              </div>
             </div>
           </div>
         </div>
@@ -742,14 +838,14 @@
           </div>
         </div>
         <hr class="my-5" />
-        <div class="row">
-          <div class="col-lg-6">
+        <div class="row g-3">
+          <div class="col-md-6">
             <p>
               &copy; <span id="copyright"></span> CrimeScan | All Rights
               Reserved
             </p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <div class="social">
               <a href="https://www.facebook.com/ValuepitchOne" target="_blank">
                 <i class="fab fa-facebook-f"></i>
@@ -773,6 +869,9 @@
     <script src="./static/js/owl.carousel.min.js"></script>
     <script src="./static/js/bootstrap.bundle.min.js"></script>
     <script src="./static/js/app.js"></script>
-    <script></script>
+    <script>
+      counter("#about");
+      counter("#counter");
+    </script>
   </body>
 </html>
